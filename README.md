@@ -81,7 +81,7 @@ $ php index.php
 
 ### To do
 
-* Add more operators
+* Add more operations
 
 ### In closing
 
