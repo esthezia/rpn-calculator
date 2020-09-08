@@ -262,7 +262,7 @@ class RPNCalculator {
      */
     protected function readAndProcess () {
         // $this->getInput() must be within the while's condition, cannot be taken outside.
-        while ($line = trim($this->getInput())) {
+        while (($line = trim($this->getInput())) !== '') {
             if ($line === 'q') {
                 exit();
             }
